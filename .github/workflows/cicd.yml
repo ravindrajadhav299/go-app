@@ -28,6 +28,6 @@ jobs:
       - name: Pull docker image
         run: sudo docker pull jaadhavravi20/go-app:latest
       - name: Delete old container
-        run: docker rm -f go-app-container  
+        run: sudo docker rm -f go-app-container  
       - name: Run docker container          
-        run: docker run -d -p 4040:4040 --name go-app-container jaadhavravi20/go-app
+        run: sudo docker run -d -p 4040:4040 --name go-app-container jaadhavravi20/go-app
