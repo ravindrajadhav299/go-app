@@ -2,7 +2,7 @@ package handler
 
 import (
 	"net/http"
-	"temp/gin-service/com/model"
+	"temp/gin-service/model"
 
 	"github.com/gin-gonic/gin"
 )
